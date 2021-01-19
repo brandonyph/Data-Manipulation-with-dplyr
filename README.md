@@ -1,12 +1,10 @@
-5.1 Introduction Visualisation is an important tool for insight
-generation, but it is rare that you get the data in exactly the right
-form you need. Often you’ll need to create some new variables or
+Introduction 
+Visualisation is an important tool for insight generation, 
+but it is rare that you get the data in exactly the right
+form you need. Often you will need to create some new variables or
 summaries, or maybe you just want to rename the variables or reorder the
 observations in order to make the data a little easier to work with.
 
-You’ll learn how to do all that (and more\!) in this note, which will
-teach you how to transform your data using the dplyr package and a new
-dataset on flights departing New York City in 2013.
 
 ``` r
 library(nycflights13)
