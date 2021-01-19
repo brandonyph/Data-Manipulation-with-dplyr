@@ -1,10 +1,8 @@
 ---
 title: 'Introduction to DPLYR_filter '
 output:
-  html_document:
-    df_print: paged
-  html_notebook: default
-  pdf_document: default
+  md_document:
+    variant: gfm
 ---
 
 5.1 Introduction
@@ -112,9 +110,9 @@ Find all flights that
   flights %>% filter(arr_delay >= 120, carrier %in% c("UA","DL","AA"))
   
   #Departed in summer (July, August, and September)
-  flights %>% filter(arr_delay <= 120, Month %in% c(7,8,9))
+  flights %>% filter(arr_delay <= 120, month %in% c(7,8,9))
   
-  #Arrived more than two hours late, but didnâ€™t leave late
+  #Arrived more than two hours late, but didnât leave late
   flights %>% filter(arr_delay >= 120, dep_delay < 0)
   
   # Departed between midnight and 6am (inclusive)
